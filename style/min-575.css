@@ -1,0 +1,185 @@
+.text {
+  font-size: 12px;
+}
+
+.menu-button {
+  width: 30px;
+  height: 21px;
+}
+
+.menu-button__bar {
+  height: 2px;
+  width: 100%;
+}
+
+.container {
+  width: calc(100vw - 30px);
+}
+
+.header__container {
+  margin: 10px auto 0;
+}
+
+.address__person {
+  font-size: 3.5vw;
+}
+
+.address__phone {
+  font-size: 3.5vw;
+}
+
+.headline-first {
+  width: 100vw;
+  text-align: center;
+  font-size: 8vw
+}
+
+.main-section__headline-first {
+  margin-top: 10vh;
+}
+
+.slogan {
+  width: 100vw;
+  text-align: center;
+}
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section__slogan {
+  margin-top: 5px;
+}
+
+.main-section__cover {
+  background: url("/images/png/min-575/уляна-богданівна-1.png") left calc(100vw/2 - 110px) bottom 12vh/200px no-repeat;
+}
+
+.button {
+  border-radius: 20px;
+  padding: 0 20px;
+  height: 40px;
+}
+
+.main-section__button {
+  margin: 60vh auto 0;
+}
+
+.section__video {
+  margin: 0 auto 0;
+  width: 100%;
+}
+
+.headline-second {
+  font-size: 24px;
+}
+
+.section__video {
+  margin-bottom: 15px;
+}
+
+.section__text-video-paragraph:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.headline-second__bottom {
+  margin-bottom: 30px;
+}
+
+.section_margin_bottom {
+  margin-bottom: 35px;
+}
+
+.section-advantage__cover {
+  background: url("/images/png/1200-max/табличка.png") center top/290px no-repeat;
+}
+
+.section-advantage__list {
+  padding: 0px 35px;
+}
+
+.section-advantage__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.section-advantage__item::before {
+  content: "";
+  background: url("/images/svg/checkbox.svg") left/contain no-repeat;
+  padding-right: 40px;
+  height: 30px;
+}
+
+.section-advantage__headline {
+  margin: 0 0 20px;
+  padding-top: 90px;
+  font-size: 21px;
+}
+
+.section-advantage__cover {
+  height: 445px;
+}
+
+.plus {
+  background: url("/images/svg/plus.svg") center/contain no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.plus__mark {
+  margin: 25px auto 25px;
+}
+
+.section-advantage-additional__headline {
+  margin: auto;
+  width: max-content;
+  font-size: 20px;
+}
+
+.section-advantage-additional__item {
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: 180px;
+}
+
+.section-advantage-additional__item:nth-child(1) {
+  background-image: url("/images/png/1200-max/ретельний-огляд.png");
+}
+
+.section-advantage-additional__item:nth-child(2) {
+  background-image: url("/images/png/1200-max/опис-рентген-знімків.png");
+  background-position: right;
+}
+
+.section-advantage-additional__item:nth-child(3) {
+  background-image: url("/images/png/1200-max/діагностику.png");
+}
+
+.section-advantage-additional__item:nth-child(4) {
+  height: 270px;
+  background-image: url("/images/png/1200-max/інструкції-щодо-самостійного-догляду.png");
+  background-position: right;
+}
+
+.label__text {
+  text-align: center;
+  font-size: 14px;
+}
+
+.label__text-one {
+  transform: translate(33px,110px);
+}
+
+.label__text-two {
+  transform: translate(100px,126px);
+}
+.label__text-three {
+  transform: translate(52px,141px);
+}
+.label__text-four {
+  transform: translate(100px,140px);
+}
+
+.section-advantage-additional__list {
+  margin: 40px 10px;
+}

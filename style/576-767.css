@@ -1,0 +1,563 @@
+.header__container {
+  width: 540px;
+  margin: 30px auto 0;
+}
+
+.main__section {
+  margin-bottom: 80px;
+}
+
+.footer {
+  width: calc(100vw - 17px);
+}
+
+.main-section__cover {
+  margin: auto;
+  box-sizing: border-box;
+  padding: 0 calc((100vw - 540px)/2);
+}
+
+.address__person {
+  font-size: 16px;
+}
+
+.address__phone {
+  display: inline-block;
+  padding-top:8px;
+  font-size: 14px;
+}
+
+.menu-button {
+  width: 60px;
+  height: 32px;
+}
+
+.menu-button__bar {
+  height: 2px;
+}
+
+.headline-first {
+  font-size: 53px;
+}
+
+.headline-second {
+  font-size: 35px;
+}
+
+.button__plan-visit {
+  height: 68px;
+  font-size: 24px;
+  border-radius: 34px;
+  padding: 0 45px;
+}
+
+.slogan {
+  font-size: 29.5px;
+}
+
+.main-section__headline-first {
+  padding-top: 20vh;
+}
+
+.main-section__slogan {
+  margin-top: 10px;
+}
+
+.main-section__button {
+  margin-top: 7vh;
+}
+
+.section__video {
+  display: block;
+  margin: 40px auto 0;
+}
+
+.text_font-size_m {
+  font-size: 20px;
+}
+
+.section__text-video {
+  margin: 30px auto 0;
+  width: 777px;
+}
+
+.section__text-video-paragraph:not(:first-child) {
+  margin-top: 15px;
+}
+
+.section-advantage {
+  background: url("/images/png/1200-max/табличка.png") center center/596.06px 925.09px no-repeat;
+}
+
+.section-advantage__list {
+  margin: 40px auto 0;
+  width: 460.51px;
+}
+
+.section-advantage__headline {
+  margin: 0 auto;
+  padding-top: 35vh;
+  width: 538.44px;
+}
+
+.section-advantage__item:not(:first-child) {
+  margin-top: 40px;
+}
+
+.mark__plus {
+  margin: 0 auto 50px;
+  width: 80px;
+  height: 80px;
+}
+
+.section-advantage-additional__item {
+  height: 250px;
+  text-align: center;
+}
+
+.section-advantage-additional__item:not(:last-child) {
+  margin-bottom: -300px;
+}
+
+.section-advantage-additional__item:nth-child(1) {
+  padding: 145px 0 0 50px;
+  background: url("/images/png/1200-max/ретельний-огляд.png") no-repeat;
+}
+
+.section-advantage-additional__item:nth-child(2) {
+  padding: 305px 30px 0 0;
+  background: url("/images/png/1200-max/опис-рентген-знімків.png") right no-repeat;
+}
+
+.section-advantage-additional__item:nth-child(3) {
+  padding: 185px 0 0 70px;
+  background: url("/images/png/1200-max/діагностику.png") no-repeat;
+}
+
+.section-advantage-additional__item:nth-child(4) {
+  padding: 270px 20px 0 0;
+  background: url("/images/png/1200-max/інструкції-щодо-самостійного-догляду.png") right no-repeat;
+}
+
+.section-advantage-additional__item:nth-child(2n) {
+  justify-content: flex-end;
+}
+
+.section-advantage-additional__list {
+  margin: 60px auto 0;
+  width: 620px;
+}
+
+.procedure__text {
+  margin: 30px auto 30px;
+  width: 540px;
+  text-align: center;
+}
+
+.procedure__headline {
+  font-size: 20px;
+}
+
+.procedure__image_position_left {
+  padding-left: calc((100vw - 540px)/2);
+}
+
+.procedure__image_position_right {
+  padding-right: calc((100vw - 1260px)/2);
+}
+
+.text-white_position_top-left {
+  padding: 20px calc((100vw - 540px)/2) 20px 10px;
+  border-top-left-radius: 100px;
+}
+
+.text-white_position_top-right {
+  padding: 20px 10px 20px calc((100vw - 540px)/2);
+  border-top-right-radius: 100px;
+}
+
+.text-white_position_bottom-left {
+  padding: 40px calc((100vw - 540px)/2) 40px 40px;
+  border-bottom-left-radius: 100px;
+}
+
+.text-white_position_bottom-right {
+  padding: 40px 40px 40px calc((100vw - 540px)/2);
+  border-bottom-right-radius: 100px;
+}
+
+.procedure__item {
+  width: 550px;
+}
+
+.procedure__item:nth-child(2n) {
+  margin-left: auto;
+  text-align: right;
+}
+
+.text_bg_white {
+  background: white;
+}
+
+.text_font-size_l {
+  font-size: 30px;
+}
+
+.comfort__item {
+  width: 650px;
+}
+
+.procedure__list {
+  margin: 0 0 70px 0;
+}
+
+.comfort__headline_position_right {
+  padding: 20px calc((100vw - 540px)/2) 20px 50px;
+}
+
+.comfort__headline_position_left {
+  padding: 20px 100px 20px 200px;
+}
+
+.comfort__text {
+  width: 460px;
+}
+
+.comfort__text_blob_one {
+  padding: 88px 75px 75px;
+  transform: translateY(-163px);
+}
+
+.comfort__text_blob_two {
+  padding: 100px 0 90px 0;
+  transform: translate(calc((100vw - 540px)/2),-410px);
+}
+
+.comfort__text_blob_three {
+  padding: 80px 0 40px 0;
+  transform: translate(-180px, -160px);
+}
+
+.comfort__margin {
+  margin-top: 70px;
+}
+
+.comfort__headline_position_right {
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+}
+
+.comfort__headline_position_left {
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+
+.comfort__list {
+  margin: 50px 0 -90px 0;
+}
+
+.comfort__photo-one {
+  width: 421.13px;
+  height: 432.11px;
+  transform: translate(160px,-112px);
+}
+
+.comfort__photo-two {
+  width: 274.65px;
+  height: 353.34px;
+  transform: translate(0,-372px);
+}
+
+.comfort__photo-three {
+  width: 400.47px;
+  height: 345.72px;
+  transform: translate(-231px, -90px);
+}
+
+.comfort__item_margin_bottom {
+  margin-bottom: -300px;
+}
+
+.doctor__photo {
+  height: 470px;
+  background: url("/images/png/1200-max/до-ваших-послуг-уляна-богданівна.png") center/700px no-repeat;
+}
+
+.doctor__photo_margin_top-bottom {
+  margin: 40px 0 35px;
+}
+
+.doctor__text {
+  font-size: 26px;
+}
+
+.comment__photo {
+  margin: 60px 0 20px;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+
+.comment__photo-one {
+  background-position: -113px -60px;
+  background-size: 400px;
+}
+
+.comment__arrow {
+  width: 30px;
+}
+
+.comment-dots {
+  width: 175px;
+}
+
+.comment-dot {
+  height: 10px;
+  width: 10px; 
+}
+
+.comments__comment {
+  margin: 40px calc((100vw - 540px)/2) 80px;
+}
+
+.comment__photo-under-text {
+  margin-bottom: 60px;
+}
+
+.comment__photo-under-text::after {
+  content:"";
+  display: block;
+  margin-top: 15px;
+  height: 25px;
+  background: url("/images/svg/instagram.svg") center/contain no-repeat;
+}
+
+.price {
+  background: url("/images/png/1200-max/price-bg.png") center no-repeat;
+}
+
+.price__text {
+  margin: 30px 0;
+}
+
+.price__img {
+  width: 100px;
+  height: 39.28px;
+}
+
+.price__headline {
+  margin-top: 80px;
+}
+
+.price__button {
+  margin-bottom: 30px;
+}
+
+.useful__img {
+  width: 240px;
+  height: 268.08px;
+  margin-bottom: 20px;
+}
+
+.reason__list {
+  margin: 50px auto 0;
+  width: 940px;
+}
+
+.reason__num {
+  padding: 30px;
+  font-size: 90px;
+}
+
+.reason__text {
+  padding: 36px 30px 36px 0px;
+}
+
+.result__img {
+  margin-bottom: 25px;
+  width: 260px;
+}
+
+.result__img-one {
+  background: url("/images/png/1200-max/неприємний-запах-з-рота.png");
+}
+
+.result__img-two {
+  background: url("/images/png/1200-max/гострі-больові-відчуття.png");
+}
+
+.result__img-three {
+  background: url("/images/png/1200-max/неестетичний-вигляд-зубів.png");
+}
+
+.result__img-four {
+  background: url("/images/png/1200-max/розхитування-зубів.png");
+}
+
+.result__img-five {
+  background: url("/images/png/1200-max/кровоточивість-ясен.png");
+}
+
+.result__img-six {
+  background: url("/images/png/1200-max/карієс.png");
+}
+
+.result__img-one {
+  height: 290.24px;
+}
+
+.result__img-two {
+  height: 304.65px;
+}
+
+.result__img-three {
+  height: 259.98px;
+}
+
+.result__img-four {
+  height: 278.01px;
+}
+
+.result__img-five {
+  height: 260px;
+}
+
+.result__img-six {
+  height: 303.01px;
+}
+
+.result__list {
+  margin: 70px 0 60px;
+}
+
+.result__item:nth-child(1) {
+  margin-bottom: -170px;
+  margin-left: 230px;
+}
+
+.result__item:nth-child(2) {
+  margin-right: 230px;
+}
+
+.result__item:nth-child(3) {
+  margin: 30px 0 30px;
+}
+
+.result__item:nth-child(4) {
+  margin-left: 230px;
+}
+
+.result__item:nth-child(5) {
+  margin-right: 230px;
+}
+
+.result__item:nth-child(6) {
+  margin-right: 40px;
+}
+
+.result__text {
+  margin: auto;
+  padding: 15px;
+  border-radius: 20px;
+  width: 780px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.logos__group {
+  margin: 40px auto;
+  border-radius: 15px;
+  width: 120px;
+  height: 48px;
+}
+
+.facebook_mode_green {
+  background: url("/images/svg/facebook-green.svg") center/30px no-repeat;
+}
+
+.instagram_mode_white {
+  background: url("/images/svg/instagram-white.svg") center/contain no-repeat;
+}
+
+.post__item:not(:nth-child(3n)) {
+  margin-right: 10px;
+}
+
+.post__list {
+  width: 820px;
+}
+
+.post__item:nth-child(-n+3) {
+  margin-bottom: 10px;
+}
+
+.footer__block {
+  margin-bottom: 70px;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.footer__form {
+  border-radius: 20px;
+  padding: 25px 40px;
+  box-sizing: border-box;
+  width: 460px;
+  height: 100%;
+}
+
+.form__input {
+  border: 1px solid #02404F;
+  border-radius: 5px;
+  height: 60px;
+}
+
+.form__input {
+  margin: 0 0 15px;
+}
+
+.form__input {
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.form__input::placeholder {
+  color: #C4C4C4;
+  font-family: Montserrat-400;
+}
+
+.form__input-textarea {
+  margin-bottom: 30px;
+  height: 120px;
+  resize: none;
+}
+
+.form__legend {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.headline-second_margin_bottom {
+  margin-bottom: 30px;
+}
+
+.top {
+  width: 80px;
+  height: 80px;
+}
+
+.top_margin_bottom {
+  margin-bottom: 60px;
+}
+
+.footer__bottom {
+  margin-bottom: 15px;
+}
+
+.copyright {
+  width: 100%;
+}
+
+.copyright__info {
+  margin-bottom: 5px;
+}
